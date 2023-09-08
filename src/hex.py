@@ -14,9 +14,20 @@ match command:
     case "encode":
         # Implement the encoding here
         encoding = ""
+        unicode_list = []
+        for i in x:
+            tmp = ord(i)
+            unicode_list.append(hex(tmp))
+        encoding = "".join(unicode_list)
         print(encoding)
 
     case "decode":
         # Implement the decoding here
         decoding = ""
+        unicode_list = x.split('0x')
+        unicode_list.remove('')
+        tmp = []
+        for i in unicode_list:
+            tmp.append(chr(int(i, base = 16)))
+        decoding = "".join(tmp)
         print(decoding)
