@@ -1,6 +1,6 @@
 # Basic programming
 
-Below you will find programming exercises of increasing complexity. Each exercise has a corresponding Python file in the `src/` directory that you should modify.
+Below you will find programming exercises of increasing complexity. Each exercise has a corresponding Python file in the `src/` directory that you can modify. You can also create your own from scratch if you encounter problems with these.
 
 Do not worry if you do not get through all of the exercises. We have tried to cover a wide range of difficulties, so there is a challenge for those who have never programmed before and those who already have some experience. Make it as far as you can, and don't sweat it if it isn't everything.
 
