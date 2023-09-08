@@ -43,11 +43,7 @@ if len(sys.argv) < 2:
 match sys.argv[1]:
     case "mean":
         # put your solution to the first exercise here
-        count = 0
-        for i in x:
-            count = count + i
-        avg = count / len(x)
-        mean = "mean of x is {}".format(avg)
+        mean = sum(x)/len(x)
         print(mean)
 
     case "times":
